@@ -19,22 +19,22 @@ int main(){
        cin>>sub5;
 
      sum= sub1+sub2+sub3+sub4+sub5;
-
++
     percentage = sum/5;
     
     cout<<"your percentage is "<<percentage;
 
-   if (percentage>85){
+   if (percentage>=80 && percentage<=100){
        cout<<"grade A";
    }
-   else if (percentage<75 && percentage>=50){
+   else if (percentage>=70 && percentage<80){
        cout<<"grade B";
    }
    
-   else if (percentage<75 && percentage>=50){
+   else if (percentage>=60 && percentage<70){
        cout<<"grade C";
    }
-   else if (percentage<30 && percentage>=50){
+   else if (percentage>=50 && percentage<60){
        cout<<"grade D";
    }
 else{ cout<<"fail"<<endl;}
